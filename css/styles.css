@@ -331,7 +331,8 @@ button {
     display: flex;
 }
 
-.list-btn-size {   
+.list-btn-size { 
+    margin-top: 94px;  
     margin-right: 8px;
     margin-bottom: 50px;
 }

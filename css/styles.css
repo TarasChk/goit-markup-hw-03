@@ -101,7 +101,7 @@ button {
 }
 
 .logo-retreat {
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .header-list-link {
@@ -129,7 +129,16 @@ button {
 }
 
 .header-size {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
+    display: flex;        
+}
+
+.header-list-item {
+    margin-right: 50px;
+}
+
+.header-list-item:last-child {
+    margin-right: 0;
 }
 
 .active-link {
@@ -168,6 +177,7 @@ button {
         text-align: center;
         letter-spacing: 0.06em;    
         color: var(--main-background-color);
+        margin-bottom: 200px;
         }
 
 .hero-button:hover,
@@ -187,13 +197,25 @@ button {
     background-color: var(--main-background-color);
 }
 
+.feachures-list {
+    display: flex;
+}
+
+.feachures-size {    
+    margin-right: 30px;
+}
+
+.feachures-box {
+    width: 270px;    
+}
+
 .feachures-tytle {         
         font-size: 14px;
         line-height: calc(16 / 14);
         letter-spacing: 0.03em;
         text-transform: uppercase;    
         color: var(--main-elements-colorr);
-        padding-top: 94px;
+        margin-top: 94px;
 }
 
 .feachures-text {        
@@ -201,8 +223,8 @@ button {
         line-height: calc(24/14);           
         letter-spacing: 0.03em;    
         color: var(--second-elements-color);
-        padding-top: 10px;
-        padding-bottom: 94px;
+        margin-top: 10px;
+        margin-bottom: 94px;
 }
 
 /* Employment Index style */
@@ -217,35 +239,53 @@ button {
         text-align: center;
         letter-spacing: 0.03em;    
         color: var(--main-elements-color);
-        padding-bottom: 50px;
+        margin-bottom: 50px;
 }
 
-.employment-retreat {
-    padding-bottom: 94px;
+.employment-retreat {    
+    display: flex;
+}
+
+.employment-image {
+    margin-right: 30px;
+}
+
+.employment-image:last-child {
+    margin-right: 0;
 }
 
 /* Team Index style */
 
-.team {
+.team {   
     background-color: #F5F4FA;
 }
 
 .team-tytle {
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
     line-height: сalc(42 / 36);
     padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
-.team-style {        
-        font-size: 36px;
-        line-height: calc(42/36);
-        text-align: center;
-        letter-spacing: 0.03em;    
-        color: var(--main-elements-color);
-        
+.team-retreat {
+    display: flex;
+}
+
+.team-image-box {
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+
+.team-image-box:last-child {
+    margin-right: 0;
+}
+
+
+.team-image {
+    display: block;
 }
 
 .team-name {
@@ -255,8 +295,8 @@ button {
         text-align: center;
         letter-spacing: 0.03em;    
         color: var(--main-elements-color);
-        padding-top: 30px;
-        padding-bottom: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
 }
 
 .team-profesion {        
@@ -274,10 +314,6 @@ button {
     border-radius: 0px 0px 4px 4px
 }
 
-.team-image {
-    display: block;
-    }
-
 /* Main (Portfolio) style */
 
 .portfolio {
@@ -292,6 +328,16 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-elements-color);
+    display: flex;
+}
+
+.list-btn-size {   
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.list-btn-size:last-child {
+    margin-right: 0;
 }
 
 .list-button-item {
@@ -317,13 +363,27 @@ button {
     border: transparent;
 }
 
+.works-list {
+    display: flex;
+    margin-bottom: 94;
+}
+
+.works-size {
+    margin-right: 30px;
+}
+
+.works-size:last-child {
+    margin-right: 0;
+}
+
 .works-box {
     width: 370px;
     height: 404px;
     left: 1015px;
     top: 262px;    
     background:var(--main-background-color);
-    border: 1px solid #EEEEEE;    
+    border: 1px solid #EEEEEE;
+    
 }
 
 .works-image {
